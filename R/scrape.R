@@ -12,7 +12,7 @@
 #' @examples tbl <- get_play_types(pull_type = "player", seasonType = "post")
 #' @examples tbl <- get_play_types(pull_type = "team", names = "defensive")
 #' @importFrom nbaTools GetPlayTypeStats
-#' @importFrom dplyr %>% bind_rows mutate select rename one_of group_by
+#' @importFrom dplyr %>% bind_rows mutate select rename one_of group_by quos
 #' @importFrom purrr map
 #' @importFrom tibble as_tibble
 #' @importFrom rlang .data UQS
