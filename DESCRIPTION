@@ -1,0 +1,23 @@
+Package: bballfans
+Type: Package
+Title: NBA Data Analysis
+Version: 0.1.0
+Authors@R: person("Rich", "Fanalyst", email = "rich@basketballfanalytics.com",
+  role = c("aut","cre"))
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+URL: https://github.com/ccagrawal/nbaTools
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    tidyverse,
+    nbaTools,
+    dplyr,
+    tibble,
+    rlang,
+    tidyr
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
